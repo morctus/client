@@ -1,0 +1,90 @@
+.main{
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: rgba(137, 43, 226, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+}
+
+.header{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-action-icon{
+    font-size: 30px !important;
+    color: black !important;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.body{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 82vh;
+    width: 100%;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./assets/logo-mr-fredd-circle-modified.png");
+    background-position: center;
+}
+
+.menu{
+    margin-top: 100px;
+    padding: 0 10px;
+}
+
+.menu-item{
+    margin-top: 30px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.805);
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.menu-item i{
+    color: rgba(240, 248, 255, 0.805);
+    text-decoration: none;
+    font-family: 18px;
+    margin: 0 15px;
+}
+
+.active-menu-item{
+    color: rgba(240, 248, 255, 0.805);
+    background-color: rgba(114, 15, 206, 0.305);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+        padding: 0 5px;
+    }
+}
